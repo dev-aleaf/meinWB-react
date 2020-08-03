@@ -1,21 +1,20 @@
 import React from 'react';
-import MWNavBar from './MWNavBar';
-import { Card, ListGroup, ListGroupItem, Form, FormGroup, Button, Col } from 'react-bootstrap';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import Home from './Home';
+import WordList from './WordList';
+
 
 function App(){
     return (
         <div>
-            <MWNavBar/>
-            <Card style={{ width: '18rem' }}>
-                <ListGroup variant="flush">
-                    <ListGroup.Item action href="#" variant="dark">Wort Liste</ListGroup.Item>
-                    <ListGroup.Item action href="#" variant="dark" >Wort einzufüngen</ListGroup.Item>
-                    <Form>
-                        <Form.Control type="text" placeholder="Wort" />
-                        <Button block variant="primary" type="submit">Wort Suchen</Button>
-                    </Form>
-                </ListGroup>
-            </Card>
+            <Router>
+                    <Switch>
+                        <Route path="/" exact component={() => <Home />} />
+                        <Route path="/wordList" exact component={() => <WordList />} />
+                        {/* <Route path="/contact" exact component={() => <Contact />} /> */}
+                    </Switch>
+            </Router>
         </div>
     );
 }

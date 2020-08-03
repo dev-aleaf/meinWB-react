@@ -1,14 +1,14 @@
 import React from 'react';
-import { Navbar, Nav, NavDropdown, Button } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 function MWNavBar(){
     return (
         <Navbar collapseOnSelect  bg="dark" variant="dark" expand="lg">
-            <Navbar.Brand href="index">Mein Wörterbuch</Navbar.Brand>
+            <Navbar.Brand href="/">Mein Wörterbuch</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav" >
                 <Nav className="mr-auto">
-                    <Nav.Link href="#">Worte Liste</Nav.Link>
+                    <Nav.Link href="/wordList">Worte Liste</Nav.Link>
                 </Nav>
                 <Nav>
                     <NavDropdown title="Willkomen: nombreUsuario" id="collasible-nav-dropdown">
