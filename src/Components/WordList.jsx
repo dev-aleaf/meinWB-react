@@ -14,7 +14,7 @@ function WordList(){
                                 <td>Wort Name</td>
                                 <td>
                                     <a class="btn btn-primary"
-                                        href="/">
+                                        href="/wordDetail">
                                         <i class="fas fa-star"></i> Das Detail
                                     </a>
                                 </td>
