@@ -8,7 +8,7 @@ function MWNavBar(){
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav" >
                 <Nav className="mr-auto">
-                    <Nav.Link href="/wordList">Worte Liste</Nav.Link>
+                    <Nav.Link href="/wordList">Wortliste</Nav.Link>
                 </Nav>
                 <Nav>
                     <NavDropdown title="Willkomen: nombreUsuario" id="collasible-nav-dropdown">

@@ -8,8 +8,8 @@ function Home(){
             <MWNavBar/>
             <Card style={{ width: '18rem' }}>
                 <ListGroup variant="flush">
-                    <ListGroup.Item action href="#" variant="dark">Wort Liste</ListGroup.Item>
-                    <ListGroup.Item action href="/wordType" variant="dark" >Wort einzufüngen</ListGroup.Item>
+                    <ListGroup.Item action href="/wordList" variant="dark">Wortliste</ListGroup.Item>
+                    <ListGroup.Item action href="/chooseType" variant="dark" >Wort einzufüngen</ListGroup.Item>
                     <Form>
                         <Form.Control type="text" placeholder="Wort" />
                         <Button block variant="primary" type="submit">Wort Suchen</Button>
