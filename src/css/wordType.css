@@ -1,0 +1,16 @@
+/* 
+    Created on : May 29, 2020, 4:54:46 PM
+    Author     : brees
+*/
+
+.vertically-center{
+         padding: 15% 0;
+}
+
+.button-style{
+    padding: 5% 0;
+    background-color: #6B073D;
+    border-style: none;
+    margin: 5% 0;
+    font-weight: bold;
+}

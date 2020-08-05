@@ -9,7 +9,7 @@ function DetailWord(){
     return(
         <div>
             <MWNavBar/>
-            <Card style={{ width: '40rem'}}>
+            <Card className="mx-auto top-15" style={{ width: '20rem'}}>
                 <Card.Header>Wortdetail</Card.Header>
                 {/*<Card.Body>
                     <Card.Title>Verb</Card.Title>

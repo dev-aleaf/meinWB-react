@@ -6,7 +6,7 @@ function Login(){
     return(
         <div>
             <MWNavBar/>
-            <Card bg="light" style={{ width: '20rem' }}>
+            <Card className="mx-auto top-15" bg="light" style={{ width: '20rem' }}>
                 <Card.Header>Log In</Card.Header>
                 <Form >
                     <Form.Group  id="usernameGroup">

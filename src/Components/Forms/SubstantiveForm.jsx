@@ -6,7 +6,7 @@ function SubstantiveForm(){
     return (
         <div>
             <MWNavBar/>
-            <Card bg="light" style={{ width: '20rem' }}>
+            <Card className="mx-auto top-15" bg="light" style={{ width: '20rem' }}>
                 <Card.Header>Substantiv</Card.Header>
                 <Form >
                     <Form.Group  id="wordNameGroup">

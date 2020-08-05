@@ -6,7 +6,7 @@ function WordList(){
     return (
         <div>
             <MWNavBar/>
-            <Card bg="light" style={{ width: '18rem' }}>
+            <Card className="mx-auto top-15" bg="light" style={{ width: '18rem' }}>
                 <Card.Body>
                     <Table striped bordered hover>
                         <tbody>
