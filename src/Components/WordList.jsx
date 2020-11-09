@@ -1,24 +1,82 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import MWNavBar from './MWNavBar';
-import { Card,Table } from 'react-bootstrap';
+import { Card,Table, Button } from 'react-bootstrap';
+import axios from 'axios';
+import swal from 'sweetalert';
 
 function WordList(){
-    return (
+
+    const user = JSON.parse(localStorage.getItem("userMW"));
+    if(user  == null)
+        window.location.replace("/login");
+    //console.log(user);
+    const idUser = user.idUser;
+
+    const url = 'http://localhost:3030/word/word-list/' + idUser;
+    const [foundWords, setFoundWords] = useState([]);
+
+    useEffect(()=>{
+        //console.log("la url ", url);
+        axios.get(url, {headers:{
+            "Content-Type": "application/json"},
+        })
+          .then((result) => {
+            const success = result.data.success;
+            
+            if(success)
+            {
+                //console.log(result);
+                const wordsArray = result.data.data;
+                setFoundWords(wordsArray);
+                //console.log("the found words", foundWords);
+                if(wordsArray.length === 0)
+                    swal("bisher gibt es keine Wörter");
+            }
+            else
+            {
+                swal("Error", "Es gab einen Fehler beim Wörtersuchen", "error");
+                const errMess = JSON.stringify(result.data.message);
+                console.log(errMess);
+            }
+          });
+    },[]);//useEffect
+
+    function setWordForDetail(wordIndex){
+        localStorage.setItem("word", JSON.stringify(foundWords[wordIndex]));
+        window.location.replace("/wordDetail");
+    }//setWordForDetail
+
+    function createWordRow(oneFound, index){
+        //console.log("enters one found");
+        return(
+            <tr
+                key={index}
+            >
+                <td>{oneFound.wordName}</td>
+                <td>
+                    <Button 
+                        block
+                        variant="primary"
+                        onClick={()=>{
+                            setWordForDetail(index);
+                            }}>
+                        <i className="fas fa-star"></i> Das Detail
+                    </Button>
+                </td>
+            </tr>
+        );
+    }//createWordRow
+
+    return (user != null &&(
         <div>
-            <MWNavBar/>
+            <MWNavBar
+                name={user.name}
+            />
             <Card className="mx-auto top-15" bg="light" style={{ width: '18rem' }}>
                 <Card.Body>
                     <Table striped bordered hover>
                         <tbody>
-                            <tr>
-                                <td>Wort Name</td>
-                                <td>
-                                    <a class="btn btn-primary"
-                                        href="/wordDetail">
-                                        <i class="fas fa-star"></i> Das Detail
-                                    </a>
-                                </td>
-                            </tr>
+                            {foundWords.map(createWordRow)}
                         </tbody>
                     </Table>
                 </Card.Body>
@@ -33,7 +91,7 @@ function WordList(){
                     </Form>
                 </ListGroup> */}
         </div>
-    );
+    ));
 }
 
 export default WordList;

@@ -1,15 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Home from './Home';
-import WordList from './WordList';
-import DetailWord from './DetailWord';
-import ChooseType from './ChooseType';
-import OtherForm from './Forms/OtherForm';
-import SubstantiveForm from './Forms/SubstantiveForm';
-import VerbForm from './Forms/VerbForm';
-import UserForm from './Forms/UserForm';
-import Login from './Login';
+import Home from './Components/Home';
+import WordList from './Components/WordList';
+import DetailWord from './Components/DetailWord';
+import ChooseType from './Components/ChooseType';
+import OtherForm from './Components/Forms/OtherForm';
+import SubstantiveForm from './Components/Forms/SubstantiveForm';
+import VerbForm from './Components/Forms/VerbForm';
+import UserForm from './Components/Forms/UserForm';
+import Login from './Components/Login';
 
 
 function App(){
