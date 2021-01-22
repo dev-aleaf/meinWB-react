@@ -2,7 +2,7 @@
 First version of a dictionary with words and hints completely customized by each user. You add the word with the description that helps you learn it.
 
 # First instructions
- Download this and meinWB-back projects. Install on both of them the dependencies (npm install) and then run them both.
+ Download this and mwBack projects. Install on both of them the dependencies (npm install) and then run them both.
 
 ## Available Scripts
 
