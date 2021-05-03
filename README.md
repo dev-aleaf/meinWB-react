@@ -1,7 +1,7 @@
 # What is this
 First version of a dictionary with words and hints completely customized by each user. You add the word with the description that helps you learn it.
 
-#Meinörterbuch home
+# Meinörterbuch home
 <img width="356" alt="home" src="https://user-images.githubusercontent.com/53799991/116944671-8b986380-ac3b-11eb-8f4f-19fd8f01f4e1.png">
 
 # First instructions
