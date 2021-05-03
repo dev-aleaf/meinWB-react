@@ -2,7 +2,7 @@
 First version of a dictionary with words and hints completely customized by each user. You add the word with the description that helps you learn it.
 
 #Meinörterbuch home
-https://user-images.githubusercontent.com/53799991/116944106-71aa5100-ac3a-11eb-9a21-c42de927e620.png
+<img width="356" alt="home" src="https://user-images.githubusercontent.com/53799991/116944671-8b986380-ac3b-11eb-8f4f-19fd8f01f4e1.png">
 
 # First instructions
  Download this and mwBack projects. Install on both of them the dependencies (npm install) and then run them both.
