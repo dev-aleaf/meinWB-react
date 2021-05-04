@@ -1,11 +1,26 @@
 # What is this
-First version of a dictionary with words and hints completely customized by each user. You add the word with the description that helps you learn it.
+First version of a dictionary where the definition for each word is completely customized by each user. You add the word with the description that helps you learn it.
 
 # Meinörterbuch home
 <img width="356" alt="home" src="https://user-images.githubusercontent.com/53799991/116944671-8b986380-ac3b-11eb-8f4f-19fd8f01f4e1.png">
 
+# Word list
+<img width="355" alt="list" src="https://user-images.githubusercontent.com/53799991/117036591-3146e380-accb-11eb-8002-db8fd0376e0f.png">
+
+# Add Menu
+<img width="358" alt="addMenu" src="https://user-images.githubusercontent.com/53799991/117036661-4754a400-accb-11eb-89d7-067cc8145df0.png">
+
+ # Add Verb
+ <img width="356" alt="addVerb" src="https://user-images.githubusercontent.com/53799991/117036743-63584580-accb-11eb-97b8-935c77b9e92a.png">
+
+# Alert Add
+<img width="355" alt="alertAdd" src="https://user-images.githubusercontent.com/53799991/117036837-766b1580-accb-11eb-983f-f337284ba438.png">
+
+# Word detail
+<img width="360" alt="detailVerb" src="https://user-images.githubusercontent.com/53799991/117036990-9d294c00-accb-11eb-8e7b-7dfc612579e4.png">
+
 # First instructions
- Download this and mwBack projects. Install on both of them the dependencies (npm install) and then run them both.
+ Download this and mwBack projects. Install on both of them the dependencies with npm install and then run (this project with npm start).
 
 ## Available Scripts
 
