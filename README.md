@@ -19,6 +19,9 @@ First version of a dictionary where the definition for each word is completely c
 # Word detail
 <img width="360" alt="detailVerb" src="https://user-images.githubusercontent.com/53799991/117036990-9d294c00-accb-11eb-8e7b-7dfc612579e4.png">
 
+# Edit word
+<img width="355" alt="editVerb" src="https://user-images.githubusercontent.com/53799991/117038354-268d4e00-accd-11eb-90bf-4b66d6748038.png">
+
 # Delete
 <img width="354" alt="alertAskDel" src="https://user-images.githubusercontent.com/53799991/117037547-37898f80-accc-11eb-9a36-82cf3df7fff3.png">
 
