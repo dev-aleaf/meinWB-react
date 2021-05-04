@@ -13,9 +13,6 @@ First version of a dictionary where the definition for each word is completely c
 # Add Verb
  <img width="356" alt="addVerb" src="https://user-images.githubusercontent.com/53799991/117036743-63584580-accb-11eb-97b8-935c77b9e92a.png">
 
-# Succesfully added message
-<img width="355" alt="alertAdd" src="https://user-images.githubusercontent.com/53799991/117036837-766b1580-accb-11eb-983f-f337284ba438.png">
-
 # Word detail
 <img width="360" alt="detailVerb" src="https://user-images.githubusercontent.com/53799991/117036990-9d294c00-accb-11eb-8e7b-7dfc612579e4.png">
 
