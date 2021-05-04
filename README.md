@@ -1,7 +1,7 @@
 # What is this
 First version of a dictionary where the definition for each word is completely customized by each user. You add the word with the description that helps you learn it.
 
-# Meinörterbuch home
+# Meinwörterbuch home
 <img width="356" alt="home" src="https://user-images.githubusercontent.com/53799991/116944671-8b986380-ac3b-11eb-8f4f-19fd8f01f4e1.png">
 
 # Word list
@@ -19,8 +19,14 @@ First version of a dictionary where the definition for each word is completely c
 # Word detail
 <img width="360" alt="detailVerb" src="https://user-images.githubusercontent.com/53799991/117036990-9d294c00-accb-11eb-8e7b-7dfc612579e4.png">
 
+# Delete
+<img width="354" alt="alertAskDel" src="https://user-images.githubusercontent.com/53799991/117037547-37898f80-accc-11eb-9a36-82cf3df7fff3.png">
+
+# Search Word
+<img width="352" alt="alertNotF" src="https://user-images.githubusercontent.com/53799991/117037465-1cb71b00-accc-11eb-8e7f-565cd3fe6f84.png">
+
 # First instructions
- Download this and mwBack projects. Install on both of them the dependencies with npm install and then run (this project with npm start).
+Download this and mwBack projects. Install on both of them the dependencies with npm install and then run (this project with npm start).
 
 ## Available Scripts
 
