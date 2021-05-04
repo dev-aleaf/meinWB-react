@@ -1,11 +1,11 @@
 # What is this
-First version of a dictionary where the definition for each word is completely customized by each user. You add the word with the description that helps you learn it.
+First version of a dictionary where the definition for each word is completely customized by each user, it is intended for German learning. You add the word with the description that helps you learn it.
 
 # Meinwörterbuch home
 <img width="356" alt="home" src="https://user-images.githubusercontent.com/53799991/116944671-8b986380-ac3b-11eb-8f4f-19fd8f01f4e1.png">
+<img width="355" alt="list" src="https://user-images.githubusercontent.com/53799991/117036591-3146e380-accb-11eb-8002-db8fd0376e0f.png">
 
 # Word list
-<img width="355" alt="list" src="https://user-images.githubusercontent.com/53799991/117036591-3146e380-accb-11eb-8002-db8fd0376e0f.png">
 
 # Add Menu
 <img width="358" alt="addMenu" src="https://user-images.githubusercontent.com/53799991/117036661-4754a400-accb-11eb-89d7-067cc8145df0.png">
