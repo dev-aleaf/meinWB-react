@@ -10,10 +10,10 @@ First version of a dictionary where the definition for each word is completely c
 # Add Menu
 <img width="358" alt="addMenu" src="https://user-images.githubusercontent.com/53799991/117036661-4754a400-accb-11eb-89d7-067cc8145df0.png">
 
- # Add Verb
+# Add Verb
  <img width="356" alt="addVerb" src="https://user-images.githubusercontent.com/53799991/117036743-63584580-accb-11eb-97b8-935c77b9e92a.png">
 
-# Alert Add
+# Succesfully added message
 <img width="355" alt="alertAdd" src="https://user-images.githubusercontent.com/53799991/117036837-766b1580-accb-11eb-983f-f337284ba438.png">
 
 # Word detail
