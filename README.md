@@ -3,26 +3,26 @@ First version of a dictionary where the definition for each word is completely c
 
 # Home & Word list
 <div>
- <img height="355" width="300" alt="home" src="https://user-images.githubusercontent.com/53799991/116944671-8b986380-ac3b-11eb-8f4f-19fd8f01f4e1.png">
- <img height="355" width="300" alt="list" src="https://user-images.githubusercontent.com/53799991/117036591-3146e380-accb-11eb-8002-db8fd0376e0f.png">
+ <img height="455" width="300" alt="home" src="https://user-images.githubusercontent.com/53799991/116944671-8b986380-ac3b-11eb-8f4f-19fd8f01f4e1.png">
+ <img height="455" width="300" alt="list" src="https://user-images.githubusercontent.com/53799991/117036591-3146e380-accb-11eb-8002-db8fd0376e0f.png">
 </div>
 
 # Add Menu & Add Verb
 <div>
- <img height="355" width="300" alt="addMenu" src="https://user-images.githubusercontent.com/53799991/117036661-4754a400-accb-11eb-89d7-067cc8145df0.png">
- <img height="355" width="300" alt="addVerb" src="https://user-images.githubusercontent.com/53799991/117036743-63584580-accb-11eb-97b8-935c77b9e92a.png">
+ <img height="455" width="300" alt="addMenu" src="https://user-images.githubusercontent.com/53799991/117036661-4754a400-accb-11eb-89d7-067cc8145df0.png">
+ <img height="455" width="300" alt="addVerb" src="https://user-images.githubusercontent.com/53799991/117036743-63584580-accb-11eb-97b8-935c77b9e92a.png">
 </div>
 
 # Word detail & Edit Word
 <div>
- <img height="355" width="300" alt="detailVerb" src="https://user-images.githubusercontent.com/53799991/117036990-9d294c00-accb-11eb-8e7b-7dfc612579e4.png">
- <img height="355" width="300" alt="editVerb" src="https://user-images.githubusercontent.com/53799991/117038354-268d4e00-accd-11eb-90bf-4b66d6748038.png">
+ <img height="455" width="300" alt="detailVerb" src="https://user-images.githubusercontent.com/53799991/117036990-9d294c00-accb-11eb-8e7b-7dfc612579e4.png">
+ <img height="455" width="300" alt="editVerb" src="https://user-images.githubusercontent.com/53799991/117038354-268d4e00-accd-11eb-90bf-4b66d6748038.png">
 </div>
 
 # Delete & Search Word
 <div>
- <img height="355" width="300" alt="alertAskDel" src="https://user-images.githubusercontent.com/53799991/117037547-37898f80-accc-11eb-9a36-82cf3df7fff3.png">
- <img height="355" width="300" alt="alertNotF" src="https://user-images.githubusercontent.com/53799991/117037465-1cb71b00-accc-11eb-8e7f-565cd3fe6f84.png">
+ <img height="455" width="300" alt="alertAskDel" src="https://user-images.githubusercontent.com/53799991/117037547-37898f80-accc-11eb-9a36-82cf3df7fff3.png">
+ <img height="455" width="300" alt="alertNotF" src="https://user-images.githubusercontent.com/53799991/117037465-1cb71b00-accc-11eb-8e7f-565cd3fe6f84.png">
 </div>
 
 # First instructions
