@@ -3,8 +3,8 @@ First version of a dictionary where the definition for each word is completely c
 
 # Home & Word list
 <div>
- <img width=30% height=30% alt="home" src="https://user-images.githubusercontent.com/53799991/116944671-8b986380-ac3b-11eb-8f4f-19fd8f01f4e1.png">
- <img width=30% height=30% alt="list" src="https://user-images.githubusercontent.com/53799991/117036591-3146e380-accb-11eb-8002-db8fd0376e0f.png">
+ <img height="355" alt="home" src="https://user-images.githubusercontent.com/53799991/116944671-8b986380-ac3b-11eb-8f4f-19fd8f01f4e1.png">
+ <img height="355" height=30% alt="list" src="https://user-images.githubusercontent.com/53799991/117036591-3146e380-accb-11eb-8002-db8fd0376e0f.png">
 </div>
 
 # Add Menu & Add Verb
